@@ -7,9 +7,9 @@ int main()
 
 cout << " before a = " << a << " b = " << b <<"\n";
 
-	a = a + b;
-	b = b - a;
 	a = a - b;
+	b = a + b;
+	a = b - a;
 
 cout << " after a = " << a << " b = " << b <<"\n";
 }
